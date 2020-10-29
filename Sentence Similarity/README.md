@@ -25,3 +25,15 @@ SORs.xlsx is attached to be used as Data.
 Solved using pretrained [bert sentence similarity model "bert-base-nli-stsb-mean-tokens"]( https://github.com/UKPLab/sentence-transformers). 
 
 Using pretrained bert first find sentences simialrty to input sentence.  Then using Cosine similarity pick those sentences whose sentence similarity is greater then some threshold.
+
+### Code Files
+* Sentence_Similarity.ipynb ==>	Using bert embeddings to find sentences similarity.
+* SORs.xlsx ==>	Input observations data
+
+
+```
+Dependies:
+Python 3.6 or higher
+PyTorch 1.2.0 or higher
+Transformers v3.1.0
+```
